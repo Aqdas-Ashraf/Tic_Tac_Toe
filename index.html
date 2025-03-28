@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ga+Maamli&family=Lobster&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Rubik+Bubbles&family=Sofia&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Ga+Maamli&family=Lobster&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Rubik+Bubbles&family=Sofia&display=swap');
+            </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap');
+            </style>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Sofia&display=swap');
+                </style>
+                
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Rubik+Bubbles&family=Sofia&display=swap');
+                    </style>
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ga+Maamli&family=Luckiest+Guy&family=Permanent+Marker&family=Rubik+Bubbles&family=Sofia&display=swap');
+                        </style>
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ga+Maamli&family=Lobster&family=Luckiest+Guy&family=Permanent+Marker&family=Rubik+Bubbles&family=Sofia&display=swap');
+                            </style>
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Permanent+Marker&family=Rubik+Bubbles&family=Sofia&display=swap');
+                        </style>
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe made by Aqdas</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+<body>
+    <main>
+    <div class="music">
+        <audio id="myAudio1" autoplay loop>
+       <source src="Cold Funk.mp3" type ="audio/mpeg" ></audio>
+    </div>
+    <audio id="myAudio2">
+        <source src="click-new.mp4" type="audio/mpeg">
+    </audio>
+     <audio id="myAudio3">
+        <source src="applause-up.mp3" type="audio/mpeg">
+    </audio> 
+    <h1>Tic-Tac-Toe</h1>
+    <p id="Play">Play The Game!</p>
+    <div class="round1"></div>
+    <h2 id="round2">Round: 0/5</h2>
+   
+    <div id="scores">
+ <p>X Wins: <span id="x-score">0</span></p>
+ <p>O Wins: <span id="o-score">0</span></p>
+   </div>
+
+    <div class="msg-container hide">
+   <div id="winner" class="winner-text">winner</div>
+   <button class="new-game">Next Round
+    <i class="fa-regular fa-circle-right"></i>
+    </div>
+    <div class="container">
+        <div class="game">
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+            <button onclick="playMusic2()"
+            class="box"></button>
+        </div>
+        <button class="reset">reset</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</main>
+</body>
+</html>
